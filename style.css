@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    justify-content: space-between; /*ESTUDAR*/
+    background-color:black ;
+    border-bottom: 5px solid #E4B439;
+    padding: 10px 20px;
+    
+}
+a, span{
+    display: inline-flex; /*ESTUDAR*/
+    align-items: center;
+    color:white;
+    font-size: 14px;
+    font-family: 'Roboto',Arial, sans-serif, Helvetica;
+    text-decoration: none;
+    margin-right: 15px;
+    letter-spacing: 2.5px;
+
+}
+
+a::before {
+    content: " ";
+    background-color: #E4B439;
+    width: 1px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    color: black ;
+    text-align: right;
+}
+
+
+#button{
+    display: inline-block;
+    border-radius: 16px;
+    background-color: #E4B439;
+    /*box-shadow: 5px 5px 0px #b43c3c;*/
+    padding: 8px 8px;
+    margin-right: 0;
+    transition: all 400ms ease;
+}
+
+#button:hover{
+    background: white;
+    color: #E4B439;
+    transition: all 400ms ease;
+    
+}
+
+.foto-perfil{
+    margin: 2PX;
+    width: 66px;
+    height:32px;
+}
