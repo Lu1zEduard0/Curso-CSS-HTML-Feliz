@@ -9,11 +9,12 @@
     letter-spacing: 2.5px;
 
 }
-
+/*
 .action::before {
     content: " ";
     background-color: #E4B439;
     width: 1px;
-    height: 10px;
+    height: 1px;
     margin-right: 10px;
 }
+*/
