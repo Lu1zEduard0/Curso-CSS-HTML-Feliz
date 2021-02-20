@@ -1,0 +1,19 @@
+.action, span{
+    display: inline-flex; /*ESTUDAR*/
+    align-items: center;
+    color:white;
+    font-size: 14px;
+    font-family: 'Roboto',Arial, sans-serif, Helvetica;
+    text-decoration: none;
+    margin-right: 15px;
+    letter-spacing: 2.5px;
+
+}
+
+.action::before {
+    content: " ";
+    background-color: #E4B439;
+    width: 1px;
+    height: 10px;
+    margin-right: 10px;
+}
