@@ -1,5 +1,6 @@
-.foto-perfil{
-    margin: 2PX;
-    width: 66px;
-    height:32px;
+.logo {
+    display: inline;
+    margin: 20px;
+    width: 132px;
+    height: 64px;
 }

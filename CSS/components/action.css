@@ -1,14 +1,17 @@
-.action, span{
-    display: inline-flex; /*ESTUDAR*/
+.action,
+span {
+    display: inline-flex;
+    /*ESTUDAR*/
     align-items: center;
-    color:white;
+    color: white;
     font-size: 14px;
-    font-family: 'Roboto',Arial, sans-serif, Helvetica;
+    font-family: 'Roboto', Arial, sans-serif, Helvetica;
     text-decoration: none;
     margin-right: 15px;
     letter-spacing: 2.5px;
-
 }
+
+
 /*
 .action::before {
     content: " ";

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="CSS/components/logo.css">
     <link rel="stylesheet" href="CSS/components/banner.css">
     <link rel="stylesheet" href="CSS/components/titlte.css">
+    <link rel="stylesheet" href="CSS/components/subtitle.css">
     <link rel="stylesheet" href="CSS/components/button.css">
     <link rel="stylesheet" href="CSS/components/action.css">
     <link rel="stylesheet" href="CSS/components/header.css">
@@ -19,33 +20,38 @@
 </head>
 
 <body>
-    <header>
-        <img src="assets/img/LOGO.png" class="foto-perfil" alt="" srcset="">
+    <div class="fundo-barra">
+        <header class="container">
+            <h1 class="logo"><img src="assets/img/LOGO.png" class="logo" alt="Logo da GOONET"></h1>
 
-        <nav>
-            <a class="action" href="">Inicio</a>
-            <a class="action" href="">Planos</a>
-            <a class="action" href="">Cobertura</a>
-            <a class="action" href="">Aplicativos</a>
-            <a class="action" href="">Contato</a>
-            <a class="action" href="">Contratos</a>
-            <a class="action" id="client-area-button" href="" lang="en"> <i class="fas fa-user"></i>
 
-                Área do Cliente</a>
+            <p class="area-cliente" id="client-area-button" href="" lang="pt-BR"> <i class="fas fa-user"></i> Área do Cliente</p>
 
-        </nav>
-    </header>
+            <nav class="menu-opcoes">
+                <a class="action" href="">Inicio</a>
+                <a class="action" href="">Planos</a>
+                <a class="action" href="">Cobertura</a>
+                <a class="action" href="">Aplicativos</a>
+                <a class="action" href="">Contato</a>
+                <a class="action" href="">Contratos</a>
+            </nav>
 
+        </header>
+    </div>
     <section class="banner">
         <div class="wrapper">
-            <h1 class="titulo">Conecte-se às Infinitas Possibilidades da Goo Net!</h1>
+            <div class="box">
+                <h1 class="titulo">Conecte-se às Infinitas Possibilidades da Goo Net!</h1>
+                <h2>Já pensou em ter acesso a vários filmes e séries, e ter mais 100 mega de conexão por Fibra Óptica por apenas R$ 79,90? com a GooNet é possivel.</h2>
+            </div>
+
             <div class="navigation">
                 <button role="button" class="botao">
-                    ASSINE JÁ
+                    Saiba mais
                 </button>
-                <button role="button" class="botao">
+                <!--<button role="button" class="botao">
                     CONTATO
-                </button>
+                </button> -->
             </div>
         </div>
     </section>

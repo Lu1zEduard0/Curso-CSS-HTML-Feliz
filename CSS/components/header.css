@@ -1,10 +1,22 @@
-header {
-    display: flex;
-    justify-content: space-between; /*ESTUDAR*/
-    background-color:black ;
-    border-bottom: 5px solid #E4B439;
-    padding: 10px 20px;
-    
+.container {
+    margin: 0 auto;
+    width: 940px;
 }
 
+header {
+    background-color: black;
+    /* justify-
+    content: space-between;
+        background-color: black;
+        border-bottom: 5px solid #E4B439;
+        padding: 10px 10px;*/
+}
 
+.menu-opcoes {
+    display: inline;
+    line-height: 40px;
+}
+
+.fundo-barra {
+    background-color: black;
+}
